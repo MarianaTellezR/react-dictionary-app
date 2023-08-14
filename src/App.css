@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App .App-header {
+  background-color: #344E41;
+  width: 100%;
+}
+
+.App .Dictionary-body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App .logo-mariana {
+  max-width: 180px;
+  display: block;
+  margin: 15px auto;
+}
