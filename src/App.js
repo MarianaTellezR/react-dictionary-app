@@ -1,4 +1,5 @@
 import logo from "./logo_mtr.png";
+import background from "./background-dictionary.png";
 import "./App.css";
 
 function App() {
@@ -18,7 +19,12 @@ function App() {
           />
         </a>
       </header>
-      <div className="Dictionary-body">Hello</div>
+      <div
+        className="Dictionary-body"
+        style={{ backgroundImage: `url(${background})` }}
+      >
+        Hello
+      </div>
     </div>
   );
 }
