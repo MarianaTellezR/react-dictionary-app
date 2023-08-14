@@ -6,7 +6,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -21,16 +20,20 @@
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100vh;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: center; */
   color: #344e41;
+  font-size: 20px;
 }
 
 .App .logo-mariana {
   max-width: 180px;
   display: block;
   margin: 15px auto;
+}
+
+footer {
+  font-size: 18px;
 }
