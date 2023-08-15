@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function Meaning(props) {
+  //Shows what we passed on props
   console.log(props.meaning);
   return (
     <div className="Meaning">
