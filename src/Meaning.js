@@ -3,17 +3,22 @@ import Example from "./Example";
 import Synonyms from "./Synonyms";
 
 export default function Meaning(props) {
-  //Shows what we passed on props
   console.log(props.meaning);
   return (
     <div className="Meaning">
       <h3>{props.meaning.partOfSpeech}</h3>
-      <p>
-        <strong>Definition</strong> {props.meaning.definition}
-        <br />
-      </p>
-      <Example example={props.meaning.example} />
-      <Synonyms synonyms={props.meaning.synonyms} />
+      {props.meaning.definitions.map(function (definition, index) {
+        return (
+          <div key={index}>
+            <p>
+              <strong>Definition:</strong> {definition.definition}
+              <br />
+            </p>
+            <Example example={definition.example} />
+            <Synonyms synonyms={definition.synonyms} />
+          </div>
+        );
+      })}
     </div>
   );
 }
