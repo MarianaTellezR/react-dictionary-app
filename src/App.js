@@ -1,5 +1,5 @@
 import logo from "./logo_mtr.png";
-import background from "./background-dictionary.png";
+import background from "./backgroundflowers.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
