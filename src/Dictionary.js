@@ -50,6 +50,7 @@ export default function Dictionary(props) {
               type="search"
               autoFocus={true}
               autoComplete="Off"
+              defaultValue={props.defaultKeyword}
             />
           </form>
           <div className="hint-words">

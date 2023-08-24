@@ -1,0 +1,15 @@
+.Meaning {
+  margin: 10px;
+  padding: 30px 25px;
+  text-align: left;
+}
+
+.Meaning h3 {
+  padding-bottom: 18px;
+  font-family: "Domine", serif;
+  font-weight: bold;
+}
+
+.Meaning .definition {
+  color: black;
+}
