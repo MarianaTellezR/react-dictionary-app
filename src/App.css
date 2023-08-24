@@ -1,15 +1,27 @@
+/*
+font-family: 'Abril Fatface', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;
+*/
 .App {
   text-align: center;
-  background-color: #EFC44B;
+  background-color: #ffdc6d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
-  font-family: "Bitter", serif;
+  font-family: "Libre Baskerville", serif;
 }
 
+.App h1 {
+  font-size: 50px;
+  color: #000000;
+  font-family: "Abril Fatface", cursive;
+  margin-top: 40px;
+  margin-bottom: 18px;
+}
 
 .App .Dictionary-body {
   background-size: cover;
@@ -23,12 +35,6 @@
   justify-content: center; */
   color: #000000;
   font-size: 20px;
-}
-
-.App .logo-mariana {
-  max-width: 180px;
-  display: block;
-  margin: 15px auto;
 }
 
 footer {
