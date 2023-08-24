@@ -1,5 +1,6 @@
 /*
 font-family: 'Abril Fatface', cursive;
+font-family: 'Domine', serif;
 font-family: 'Libre Baskerville', serif;
 font-family: 'Lora', serif;
 */
@@ -18,7 +19,8 @@ font-family: 'Lora', serif;
 .App h1 {
   font-size: 50px;
   color: #000000;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Domine", serif;
+  font-weight: 700;
   margin-top: 40px;
   margin-bottom: 18px;
 }
@@ -39,4 +41,15 @@ font-family: 'Lora', serif;
 
 footer {
   font-size: 18px;
+}
+
+footer a {
+  color: #606dea;
+  text-decoration: none;
+  transition: all 120ms ease-in-out;
+}
+
+footer a:hover {
+  color: #ef769d;
+  text-decoration: none;
 }
