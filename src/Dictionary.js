@@ -42,6 +42,9 @@ export default function Dictionary() {
             autoComplete="Off"
           />
         </form>
+        <div className="hint-words">
+          <p>Suggested words: sunset, videogames, plant...</p>
+        </div>
       </section>
       <Results results={results} />
     </div>
