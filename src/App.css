@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: #EFC44B;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,10 +10,6 @@
   font-family: "Bitter", serif;
 }
 
-.App .App-header {
-  background-color: #c29c8a;
-  width: 100%;
-}
 
 .App .Dictionary-body {
   background-size: cover;
@@ -25,7 +21,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center; */
-  color: #4e392d;
+  color: #000000;
   font-size: 20px;
 }
 
