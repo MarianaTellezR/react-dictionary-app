@@ -11,11 +11,21 @@
 }
 
 .Results h2 {
-    font-size: 36px;
-    font-weight: bold;
-    line-height: 1.8;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.8;
 }
 
 .Results .partSpeech {
   box-shadow: -12px 13px rgba(239, 118, 157, 1);
+}
+
+@media (max-width: 500px) {
+  .Results section {
+    box-shadow: -7px 7px rgba(246, 186, 0, 1);
+  }
+
+  .Results .partSpeech {
+    box-shadow: -7px 7px rgba(239, 118, 157, 1);
+  }
 }

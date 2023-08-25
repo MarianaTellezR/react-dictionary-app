@@ -13,14 +13,19 @@
 .Photos img {
   border-radius: 9px;
   border: 1px solid #000000;
-  box-shadow: -6px 6px #11A263;
+  box-shadow: -6px 6px #11a263;
   margin-top: 20px;
   margin-bottom: 20px;
   width: 85%;
   transition: all 150ms ease-in-out;
 }
 
-.Photos img:hover { 
-    box-shadow: -6px 6px #FF7926;
-    transform: scale(1.1);
+.Photos img:hover {
+  box-shadow: -6px 6px #ff7926;
+  transform: scale(1.1);
+}
+@media (max-width: 500px) {
+  .Photos {
+    box-shadow: -7px 7px #606dea;
+  }
 }
