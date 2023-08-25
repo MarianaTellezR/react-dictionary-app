@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Dictionary.css";
 import Results from "./Results";
+import Photos from "./Photos";
 
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
+  let [photos, setPhotos] = useState(null);
 
   function handleDictionaryResponse(response) {
     setResults(response.data[0]);
@@ -14,6 +16,7 @@ export default function Dictionary(props) {
 
   function handleImagesResponse(response) {
     console.log(response);
+    setPhotos(response.data.photos);
   }
 
   function search() {
@@ -58,10 +61,11 @@ export default function Dictionary(props) {
             />
           </form>
           <div className="hint-words">
-            <p>Suggested words: sunset, videogames, plant...</p>
+            <p>Suggested words: tree, subway, train, book, sunset, plant...</p>
           </div>
         </section>
         <Results results={results} />
+        <Photos photos={photos} />
       </div>
     );
   } else {

@@ -9,7 +9,7 @@ function App() {
       <h1>Dictionary</h1>
       <div className="Dictionary-body">
         <main>
-          <Dictionary defaultKeyword="sunset" />
+          <Dictionary defaultKeyword="house" />
         </main>
         <footer>
           <p>
